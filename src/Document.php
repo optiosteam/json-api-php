@@ -11,9 +11,7 @@
 
 namespace Tobscure\JsonApi;
 
-use JsonSerializable;
-
-class Document implements JsonSerializable
+class Document implements \JsonSerializable
 {
     use LinksTrait;
     use MetaTrait;
@@ -226,7 +224,7 @@ class Document implements JsonSerializable
      *
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         return $this->toArray();
     }

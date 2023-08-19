@@ -1,3 +1,7 @@
+# Why is this forked?
+
+This is forked for php 8.2 support, no feature changes. This library should no longer be used and phased out when possible.
+
 # PHP JSON-API
 
 [![Build Status](https://img.shields.io/travis/tobscure/json-api/master.svg?style=flat)](https://travis-ci.org/tobscure/json-api)

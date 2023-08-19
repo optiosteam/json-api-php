@@ -15,8 +15,9 @@ use Exception;
 use Tobscure\JsonApi\Exception\Handler\InvalidParameterExceptionHandler;
 use Tobscure\JsonApi\Exception\Handler\ResponseBag;
 use Tobscure\JsonApi\Exception\InvalidParameterException;
+use PHPUnit\Framework\TestCase;
 
-class InvalidParameterExceptionHandlerTest extends \PHPUnit_Framework_TestCase
+class InvalidParameterExceptionHandlerTest extends TestCase
 {
     public function testHandlerCanManageInvalidParameterExceptions()
     {
